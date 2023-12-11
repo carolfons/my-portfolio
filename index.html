@@ -46,13 +46,35 @@
                         <p>Tenho uma paixão pelo aprendizado contínuo e pelo crescimento pessoal. 
                             Estou sempre em busca <br> de novas oportunidades para ampliar meus conhecimentos e aplicá-los em projetos inovadores. </p>
                     <div class="tab-title">
-                        <p class = "tab-links">Skills</p>
-                        <p class = "tab-links">Experiência</p>
-                        <p class = "tab-links">Educação</p>
+                        <p class = "tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class = "tab-links" onclick="openTab('experiencia')">Experiência</p>
+                        <p class = "tab-links" onclick="openTab('educacao')">Educação</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Desenvolvimento Web</span><br>Desenvolvimento de aplicações Web utilizando HTML, CSS e JavaScript</li>
+                            <li><span>UI/UX</span><br>Design de interfaces utilizando o Figma</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiencia">
+                        <ul>
+                            <li><span>Elgin S/A | 2022 - Atualmente </span><br>Desenvolvimento de algoritmos complexos utilizando C++ e a estrutura Qt/QML. Além disso, trabalhei em<br> contribuições emprojetos que envolvem o 
+                                desenvolvimento de aplicações Android, utilizando a linguagem Java.</li>
+                            <li><span>Toodoo | 2021 - 2022</span><br>Utilizando HTML, CSS e JavaScript, construí interfaces responsivas e interativas <br> que proporcionavam uma boa experiência para o usuário. 
+                                Também tive a oportunidade de trabalhar <br> com o ReactJS, criando componentes reutilizáveis e estruturas eficiente.</li>
+                            <li><span>Inatel Competence Center | 2020 - 2021 </span><br>Desenvolvimento Front End com uma variedade de tecnologias essenciais, incluindo<br>PHP, HTML, CSS, SQL e WordPress, 
+                                construindo soluções web envolventes e funcionais, <br>personalizando temas e plugins para atender<br> às necessidades exclusivas dos clientes</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="educacao">
+                        <ul>
+                            <li><span>Instituto Nacional de Telecomunicações </span><br>Engenharia da Computação<br>Conclusão: 2021</li>
+                            <li><span>Colégio Poliedro</span><br>Ensino Médio<br>Conclusão: 2013</li>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
