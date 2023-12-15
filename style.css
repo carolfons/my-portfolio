@@ -94,7 +94,7 @@ body{
     padding: 80px 0;
 }
 .container-about{
-    background-color: var(--background-color-primary);
+    background-color: var(--header-color-background); 
 }
 .row{
     background-color: var(--background-color-primary);
@@ -164,7 +164,7 @@ body{
     color: #FFFEF8;
     font-weight: 500;
 }
-.container .sub-title-dark{
+.sub-title-dark{
     font-size: 56px;
     color: var(--header-color-background);
     font-weight: 500;
@@ -304,8 +304,14 @@ body{
 }
 
 /*Contato-----------------*/
+.container-contato{
+    background-color: var(--background-color-primary);
+    padding: 10px 10%;
+    
+}
 .contact-left{
     flex-basis: 35%;
+    margin: auto;
 }
 .contact-right{
     flex-basis: 60%;
@@ -353,4 +359,35 @@ body{
 .btn2:hover{
     background: rgba(3, 42, 78, 0.5) ;
 }
+.contact-right form{
+    width: 100%;
+}
 
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    outline: none;
+    margin: 15px 0;
+    color: #FFF;
+    font: 18px;
+    border-radius: 6px; 
+    background-color: rgba(51, 51, 51, 0.205);
+
+}
+
+form btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background-color: #292929;
+    margin-top: 20px;
+    color: var(--background-color-primary);
+}
