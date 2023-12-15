@@ -16,13 +16,15 @@
         <div class="container">
             <nav>
                 <img src="./assets/logo-1.svg" alt="logo-caroline" class="logo" >
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Portfólio</a></li>
-                    <li><a href="#">Contato</a></li>
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closeMenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
             </nav>
 
         </div>
@@ -40,7 +42,7 @@
                     <img src="./assets/perfil.png" alt="">
                 </div>
                 <div class="about-column-2">
-                    <h1>Sobre Mim</h1>
+                    <h1 class="sub-title">Sobre Mim</h1>
                     <p>Engenheira da Computação formada pelo Instituto Nacional de Telecomunicações (INATEL), <br> 
                         apaixonada por tecnologia e inovação. Desenvolvo projetos pequenos utilizando as tecnologias <br> HTML, CSS e JavaScript. 
                         Além disso trabalho também com o UX e UI Design do projeto.</p>
