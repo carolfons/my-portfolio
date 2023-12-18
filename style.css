@@ -372,7 +372,7 @@ form input, form textarea{
     padding: 15px;
     outline: none;
     margin: 15px 0;
-    color: #FFF;
+    color: var(--header-color-background);
     font: 18px;
     border-radius: 6px; 
     background-color: rgba(51, 51, 51, 0.205);
