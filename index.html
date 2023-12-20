@@ -171,35 +171,18 @@
                     <a href="https://www.facebook.com/caroline.santosfonseca/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://www.instagram.com/carol_fonseca" target="_blank"><i class="fa-brands fa-square-instagram"></i></i></a>
                 </div>
-                <a href="./assets/caroline-fonseca-cv-atual.pdf" download class="btn2">Download CV &nbsp; <i class="fa-solid fa-file-arrow-down"></i></a>
+                <a href="./assets/caroline-fonseca-cv-atual.pdf" download id="btn2">Download CV &nbsp; <i class="fa-solid fa-file-arrow-down"></i></a>
             </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Seu Nome" required>
-                    <input type="email" name="Email" placeholder="Seu email" required>
-                    <textarea name="x" rows="6" placeholder="Sua Mensagem"></textarea>
-                    <button type="submit" class="btn2">Enviar</button>
-                </form>
-            </div>
+           
         </div>
     </div>
     <div class="copyright">
         <p>Made by Caroline Fonseca</p>
     </div>
 </div>
-    <script src="./script.js"></script>
-      
-      <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbyw9JQJ2he3PBuNMg2fUg41bvTH3srxaav8uFAhxas8za6m_A8QUPRZJ7ZpiKdNaI4JtA/exec'
-        const form = document.forms['submit-to-google-sheet']
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
 </body>
 </html>
 
