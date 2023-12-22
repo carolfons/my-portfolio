@@ -17,7 +17,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Git e Github
 - Figma
-- 
+  
 ## 💻 Projeto
 
 - [Visite meu portfolio](https://carolfons.github.io/my-portfolio/)
