@@ -402,7 +402,10 @@ nav .fa-solid{
     }
 
     #portfolio .worklist {
-        size: 30%;
+        width: 10%;
+    }
+    work{
+        width: 10%;
     }
 
     nav .fa-solid{
