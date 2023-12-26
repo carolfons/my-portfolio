@@ -393,6 +393,18 @@ nav .fa-solid{
     .header-text img{
         width: 50%;
     }
+    .tab-links{
+        font-size: 99%;
+        font-weight: 500;
+    }
+    .tab-contents{
+        font-size: 12px;
+    }
+
+    #portfolio img {
+        size: 50%;
+    }
+
     nav .fa-solid{
         display: block;
         font-size: 25px;
