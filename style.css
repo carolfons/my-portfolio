@@ -401,8 +401,8 @@ nav .fa-solid{
         font-size: 12px;
     }
 
-    #portfolio img {
-        size: 50%;
+    #portfolio .worklist {
+        size: 30%;
     }
 
     nav .fa-solid{
