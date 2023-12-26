@@ -403,9 +403,11 @@ nav .fa-solid{
 
     #portfolio .worklist {
         width: 10%;
+        height: 10%;
     }
     work{
         width: 10%;
+        height: 10%;
     }
 
     nav .fa-solid{
